@@ -2718,11 +2718,13 @@
 }
 
 .master-counter .number-wrap span {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1;
     font-weight: 500;
-    color: var(--e-global-color-tombuild_primary);
-    transition: .5s all ease
+    color: #ED0C07;
+    transition: .5s all ease;
+    padding-bottom:50px;
+    padding-top:25px;
 }
 
 .master-counter .title {
