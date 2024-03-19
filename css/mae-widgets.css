@@ -2723,8 +2723,8 @@
     font-weight: 500;
     color: #ED0C07;
     transition: .5s all ease;
-    padding-bottom:50px;
-    padding-top:25px;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 .master-counter .title {
@@ -9048,4 +9048,28 @@
 
 .transition-none {
     transition: none !important
+}
+
+@media only screen and (max-width: 768px) {
+    .our-work-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .our-work-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .our-work-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .our-work-desktop {
+        display: block;
+    }
 }
